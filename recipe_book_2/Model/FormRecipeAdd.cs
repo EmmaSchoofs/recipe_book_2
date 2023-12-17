@@ -56,8 +56,6 @@ namespace recipe_book_2.Model
              else //update
             {
                 qry = "Update Recipe Set categoryId = @categoryId, recipeName = @Name, preparationTime = @preparationTime, totalTime = @totalTime, numberOfPerson = @numberOfPerson, ingredient = @ingredient, requirement = @requirement, preparationMethod = @preparationMethod where recipeId = @id";
-
-                qry = "Update Recipe Set categoryId = @categoryId, recipeName = @Name, preparationTime = @preparationTime, totalTime = @totalTime, numberOfPerson = @numberOfPerson, ingredient = @ingredient, requirement = @requirement, preparationMethod = @preparationMethod where recipeId = @id";
             }
 
             Hashtable ht = new Hashtable();
